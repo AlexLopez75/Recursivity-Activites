@@ -8,6 +8,7 @@ namespace Recursivity
         {
             RecursLibrary.Countdown(4);
             Console.WriteLine(RecursLibrary.CountDigits(120));
+            Console.WriteLine(RecursLibrary.AddDigits(123));
         }
     }
 }
