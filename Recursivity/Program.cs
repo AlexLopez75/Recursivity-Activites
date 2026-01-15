@@ -16,6 +16,8 @@ namespace Recursivity
             RecursLibrary.PrintForwardArray(arrayInt, 0);
             Console.WriteLine();
             RecursLibrary.PrintBackwardArray(arrayInt, 4);
+            Console.WriteLine();
+            Console.WriteLine(RecursLibrary.FindMax(arrayInt, 0));
         }
     }
 }
