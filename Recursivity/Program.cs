@@ -8,6 +8,8 @@ namespace Recursivity
         public static void Main()
         {
             int[] arrayInt = { 3, 2, 4, 1, 5 };
+            string nameOne = "anna";
+            string nameTwo = "pablo";
 
             RecursLibrary.Countdown(4);
             Console.WriteLine(RecursLibrary.CountDigits(120));
@@ -18,6 +20,8 @@ namespace Recursivity
             RecursLibrary.PrintBackwardArray(arrayInt, 4);
             Console.WriteLine();
             Console.WriteLine(RecursLibrary.FindMax(arrayInt, 0));
+            Console.WriteLine(RecursLibrary.IsPalindrome(nameOne));
+            Console.WriteLine(RecursLibrary.IsPalindrome(nameTwo));
         }
     }
 }
