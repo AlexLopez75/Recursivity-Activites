@@ -23,6 +23,7 @@ namespace Recursivity
             Console.WriteLine(RecursLibrary.IsPalindrome(nameOne));
             Console.WriteLine(RecursLibrary.IsPalindrome(nameTwo));
             Console.WriteLine(RecursLibrary.MaximumCommonDivisor(100, 35));
+            Console.WriteLine(RecursLibrary.DecimalToBinari(10)); 
         }
     }
 }
